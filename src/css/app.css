@@ -1,0 +1,177 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: sans-serif;
+
+}
+
+
+
+.section1 {
+
+    display: flex;
+
+    justify-content: start;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    background-image: url('./back-lrg.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    image-rendering: -webkit-optimize-contrast;
+
+    image-rendering: contrast;
+
+}
+
+
+
+
+
+.headers h1 {
+
+    font-size: 3.5em;
+
+    padding-top: 2.8em;
+
+    padding-bottom: 0.6em;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+
+h2 {
+
+    color: white;
+
+    font-size: 2.1em;
+
+    padding-bottom: 0.8em;
+
+    text-align: center;
+
+}
+
+
+
+.front {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+select {
+
+    width: 300px;
+
+    padding: 0.5em;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+}
+
+
+
+.selectBay {
+
+    padding-top: 1em;
+
+}
+
+.selectBay button {
+    font-size: 1.2em;
+    background-color: white;
+    padding: 0.6em 3em 0.6em 3em;
+    border-radius: 100px;
+    border: white;
+    color: #3e98c7;
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.1, 1.1);
+    filter: sepia(0.5);
+}
+
+@media (max-width: 550px) {
+
+    .section1 h1 {
+
+        font-size: 2.5em;
+
+    }
+
+    h2 {
+
+        font-size: 1.5em;
+    }
+
+    select {
+
+        width: 200px;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+    .headers {
+        padding-top: 3em;
+    }
+
+    .section1 h1 {
+
+        font-size: 1.8em;
+
+    }
+
+    h2 {
+
+        font-size: 1.2em;
+    }
+
+    select {
+
+        width: 200px;
+
+    }
+
+}

@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+body {
+    background-color: #F8F0E3;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.display-card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 5em;
+    font-size: 1em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-width: 400px;
+}
+
+
+table th {
+    background-color: #add8e6;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.8em;
+    font-size: 1.2em;
+
+}
+
+.header h1 {
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    color: #3e98c7;
+    margin-bottom: 0.6em;
+}
+
+.top h1 {
+    padding-top: 0.5em;
+}
+
+
+td,
+th {
+    padding: 8px;
+    text-align: center;
+    padding: 8px;
+}
+
+
+td {
+
+    background-color: white;
+    font-size: 1.7em;
+}
+
+
+
+.time {
+    color: #3e98c7;
+    font-size: 1.8em;
+}
+
+
+
+.fill {
+    max-width: 140px;
+    max-height: 140px;
+
+}
+
+.carFill {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+
+@media (max-width: 550px) {
+
+    table {
+        min-width: 200px;
+    }
+
+    .time {
+        font-size: 1.5em;
+    }
+
+    .fill {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .carFill {
+        width: 125px;
+        height: 125px;
+    }
+
+}
+
+@media (max-width: 465px) {
+
+    .fill {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .carFill {
+        min-width: 130px;
+        min-height: 130px;
+    }
+
+}
